@@ -117,11 +117,11 @@ This structured extraction ensures context-aware accuracy and data consistency.
 
     +--------------------------+
     |  Input Document Image    |
-    +------------+-------------+
-                 |
+    +--------------------------+
+                 ↓
        YOLOv8 Edge Detection
                  ↓
-   Hough Transform & Warping
+       Hough Transform & Warping
                  ↓
         VGG-16 Classification
                  ↓
